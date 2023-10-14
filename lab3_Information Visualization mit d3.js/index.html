@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanton Schaffhausen: Erwerbsleben und Ausbildung</title>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script type="module">
+        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+        const data = await d3.json("datenbereinigt.json")
+
+        const workdata = data.map(d => {
+            return {
+                ausbildung: d.column_header[d.column_header.length - 1],
+                age: d.row_header[1],
+                value: d.measurement
+            }
+        })
+
+        console.log(workdata);
+
+        const width = 1000;
+        const height = 1000;
+        const marginTop = 30;
+        const marginRight = 170;
+        const marginBottom = 30;
+        const marginLeft = 300;
+
+        const series = d3.stack()
+            .keys(d3.union(workdata.map(d => d.age)))
+            .value(([, D], key) => D.get(key).value)
+            .offset(d3.stackOffsetExpand)
+            (d3.index(workdata, d => d.ausbildung, d => d.age));
+
+        const heigt = series[0].length * 25 + marginTop + marginBottom;
+
+        const x = d3.scaleLinear()
+            .domain([0, d3.max(series, d => d3.max(d, d => d[1]))])
+            .range([marginLeft, width - marginRight]);
+
+        const y = d3.scaleBand()
+            .domain(d3.groupSort(workdata, (D) => -D.find(d => d.age === "15 bis 19 Jahre").value / d3.sum(D, d => d.value), d => d.ausbildung))
+            .range([marginTop, height - marginBottom])
+            .padding(0.08);
+
+        const color = d3.scaleOrdinal()
+            .domain(series.map(d => d.key))
+            .range(d3.schemeSpectral[series.length])
+            .unknown("#ccc");
+
+        const svg = d3.create("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .attr("viewBox", [0, 0, width, height])
+            .attr("style", "max-width: 100%; height: auto;");
+
+        svg.append("g")
+            .selectAll()
+            .data(series)
+            .join("g")
+            .attr("fill", d => color(d.key))
+            .selectAll("rect")
+            .data(D => D.map(d => (d.key = D.key, d)))
+            .join("rect")
+            .attr("x", d => x(d[0]))
+            .attr("y", d => y(d.data[0]))
+            .attr("height", y.bandwidth())
+            .attr("width", d => x(d[1]) - x(d[0]))
+            .append("title")
+            .text(d => `${d.data[0]} ${d.key}\n${d.data[1].get(d.key).value}`);
+
+        svg.append("g")
+            .attr("transform", `translate(0,${marginTop})`)
+            .call(d3.axisTop(x).ticks(width / 100, "%"))
+            .call(g => g.selectAll(".domain").remove());
+
+        svg.append("g")
+            .attr("transform", `translate(${marginLeft},0)`)
+            .call(d3.axisLeft(y).tickSizeOuter(0))
+            .call(g => g.selectAll(".domain").remove());
+
+        const legend = svg.selectAll('.legend')
+            .data(color.domain())
+            .enter().append('g')
+            .attr('class', 'legend')
+            .attr('transform', function (d, i) { return 'translate(0,' + i * 20 + ')'; });
+
+        legend.append('rect')
+            .attr('x', width - 18)
+            .attr('width', 18)
+            .attr('height', 18)
+            .style('fill', color);
+
+        legend.append('text')
+            .attr('x', width - 24)
+            .attr('y', 9)
+            .attr('dy', '.35em')
+            .style('text-anchor', 'end')
+            .text(function (d) { return d; });
+
+        container.append(svg.node());
+
+
+
+    </script>
+
+</body>
+
+</html>
