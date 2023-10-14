@@ -1,4 +1,7 @@
 # VC1
 Visual Computing 1
 
-- [lab3_Information Visualization mit d3.js/index.html](Praktikum 3 Information Visualization mit d3.js)
+PAGE: https://github.zhaw.ch/pages/rosinluc/VC1/
+
+- [Praktikum 3 Information Visualization mit d3.js](lab3_Information Visualization mit d3.js/index.html)
+- [](url)
