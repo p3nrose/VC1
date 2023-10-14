@@ -1,0 +1,1420 @@
+[
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "4385"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "1081"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "2310"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "106"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "268"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "68"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "3"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "0"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "0"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "0"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "0"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "15 bis 19 Jahre"
+    ],
+    "measurement": "549"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "4069"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "97"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "614"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "166"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "1951"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "744"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "95"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "65"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "10"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "6"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "19"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "20 bis 24 Jahre"
+    ],
+    "measurement": "302"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "4078"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "95"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "505"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "98"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "1947"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "319"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "170"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "302"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "100"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "47"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "195"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "25 bis 29 Jahre"
+    ],
+    "measurement": "300"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "5164"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "104"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "650"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "116"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "2403"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "257"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "160"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "556"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "166"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "97"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "349"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "30 bis 34 Jahre"
+    ],
+    "measurement": "306"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "6040"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "136"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "733"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "162"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "2870"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "274"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "187"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "693"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "166"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "118"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "374"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "35 bis 39 Jahre"
+    ],
+    "measurement": "327"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "5749"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "172"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "765"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "132"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "2665"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "205"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "269"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "630"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "165"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "64"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "361"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "40 bis 44 Jahre"
+    ],
+    "measurement": "321"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "5097"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "157"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "886"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "134"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "2305"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "126"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "252"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "471"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "124"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "73"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "331"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "45 bis 49 Jahre"
+    ],
+    "measurement": "238"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "5056"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "157"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "921"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "140"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "2394"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "128"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "186"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "415"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "119"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "61"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "292"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "50 bis 54 Jahre"
+    ],
+    "measurement": "243"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "4526"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "135"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "871"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "124"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "2141"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "89"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "161"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "379"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "116"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "61"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "218"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "55 bis 59 Jahre"
+    ],
+    "measurement": "231"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "3900"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "138"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "1023"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "109"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "1586"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "65"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "113"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "275"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "135"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "26"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "140"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "60 bis 64 Jahre"
+    ],
+    "measurement": "290"
+},
+{
+    "column_header": [
+        "Total"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "13054"
+},
+{
+    "column_header": [
+        "Keine Ausbildung abgeschlossen"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "451"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Obligatorische Schule"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "4299"
+},
+{
+    "column_header": [
+        "Sekundarstufe I",
+        "Diplommittelschule oder berufsvorbereitende Schule"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "338"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Berufslehre, VollzeitBerufsschule"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "4358"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Maturitätsschule"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "183"
+},
+{
+    "column_header": [
+        "Sekundarstufe II",
+        "Lehrerseminar"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "234"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fach und Berufsausbildung"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "635"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Höhere Fachschule"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "258"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Fachhochschule"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "62"
+},
+{
+    "column_header": [
+        "Tertiärstufe",
+        "Universität, Hochschule"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "368"
+},
+{
+    "column_header": [
+        "Ohne Angabe"
+    ],
+    "row_header": [
+        "Total",
+        "65 Jahre und mehr"
+    ],
+    "measurement": "1868"
+}]
