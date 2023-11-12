@@ -1,0 +1,42 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 08.06.2021 02:07:02
+
+newmtl industrial_metal
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.000000 0.000000 0.000000
+	Ks 0.216000 0.216000 0.216000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl table_industrial_wood
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.189000 0.189000 0.189000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka maps\industrial_light_wood_diff.jpg
+	map_Kd maps\industrial_light_wood_diff.jpg
+	map_bump maps\industrial_wood_bump.jpg
+	bump maps\industrial_wood_bump.jpg
+
+newmtl overdued_rubber
+	Ns 22.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.003922 0.003922 0.003922
+	Ks 0.198000 0.198000 0.198000
+	Ke 0.000000 0.000000 0.000000

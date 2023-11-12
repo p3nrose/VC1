@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>POV: you're Markus</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div id="container"></div>
+  <div id="info">
+    <span class="yellow">THREE.JS Praktikum Dinner Challenge</span><br />
+    1. Find the hidden menu<br />
+    2. Prepare the meal and save the VC1 Day!<br />
+    <small>Press SPACE to lock/unlock looking around;<br />
+    Press W/S to increase/decrease FOV</small><br />
+    <small>Click on an object to select it</small><br />
+    <small>In the menu on the right you can change the environment map and reset the scene</small>
+  </div>
+  <div id="objectInfo"
+    style="position: absolute; top: 10px; left: 10px; color: white; background-color: rgba(72, 72, 72, 0.817) ; display: none;">
+    Object Info Here</div>
+
+  <script type="importmap">
+      {
+        "imports": {
+          "three": "../build/three.module.js",
+          "three/addons/": "./jsm/"
+        }
+      }
+    </script>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { initScene, changeEnvironmentMap } from "./initScene";
+    import { loadObjects } from "./loadObjects";
+    import { GUI } from "lil-gui";
+
+    const clock = new THREE.Clock();
+    const [scene, camera, renderer, renderTarget, controls] = initScene();
+    let canLookAround = false;
+    let currentScene = scene;
+    let selectedHoverObject = null;
+    let selectedObject = null;
+
+    const raycaster = new THREE.Raycaster();
+    const pointer = new THREE.Vector2();
+    const gui = new GUI();
+
+
+    function onPointerMove(event) {
+      pointer.x = (event.clientX / window.innerWidth) * 2 - 1;
+      pointer.y = -(event.clientY / window.innerHeight) * 2 + 1;
+    };
+
+    const cubeMaps = {
+      piazza: "./piazza/",
+      atelier: "./atelier/",
+      "atelier dunkel": "./atelier_dunkel/",
+      "atelier mitte": "./atelier_mitte/"
+    };
+
+    document.addEventListener('objectsLoaded', function(e){
+      if(e.detail.name === 'fork'){
+        addForkToGUI(e.detail.object);
+      }
+      if(e.detail.name === 'knife'){
+        addKnifeToGUI(e.detail.object);
+      }
+      if(e.detail.name === 'spoon'){
+        addSpoonToGUI(e.detail.object);
+      }
+      if(e.detail.name === 'plate'){
+        addPlateToGUI(e.detail.object);
+      }
+      if(e.detail.name === 'glass'){
+        addGlassToGUI(e.detail.object);
+      }
+      if(e.detail.name === 'table'){
+        addTableToGUI(e.detail.object);
+      }
+    });
+
+    loadObjects(render, scene, renderer, camera, renderTarget);
+
+    function addGUI(camera, controls, renderTarget, scene) {
+      gui.add(document, 'title');
+      gui.add(controls, 'lookSpeed', 0, 1);
+      gui.add(camera, 'fov', 0, 180).onChange(() => camera.updateProjectionMatrix());
+      gui.add(renderTarget, 'setPath', cubeMaps).onChange((path) => changeEnvironmentMap(scene, path));
+
+      /* reset scene */
+      gui.add({
+        resetScene: () => {
+          scene.children.forEach((child) => {
+            if (child.name !== 'camera' && child.name !== 'controls') {
+              scene.remove(child);
+            }
+          });
+          loadObjects(render, scene, renderer, camera, renderTarget);
+        }
+      }, 'resetScene');
+      return gui;
+    }
+    
+    addGUI(camera, controls, renderTarget, scene);
+
+    function addForkToGUI(fork){
+      const folderFork = gui.addFolder('Fork');
+      folderFork.add(fork.position, 'x', -1000 , 1000);
+      folderFork.add(fork.position, 'y', -1000 , 1000);
+      folderFork.add(fork.position, 'z', -1000 , 1000);
+    }
+
+    function addKnifeToGUI(knife){
+      const folderKnife = gui.addFolder('Knife');
+      folderKnife.add(knife.position, 'x', -1000 , 1000);
+      folderKnife.add(knife.position, 'y', -1000 , 1000);
+      folderKnife.add(knife.position, 'z', -1000 , 1000);
+    }
+
+    function addSpoonToGUI(spoon){
+      const folderSpoon = gui.addFolder('Spoon');
+      folderSpoon.add(spoon.position, 'x', -1000 , 1000);
+      folderSpoon.add(spoon.position, 'y', -1000 , 1000);
+      folderSpoon.add(spoon.position, 'z', -1000 , 1000);
+    }
+
+    function addPlateToGUI(plate){
+      const folderPlate = gui.addFolder('Plate');
+      folderPlate.add(plate.position, 'x', -1000 , 1000);
+      folderPlate.add(plate.position, 'y', -1000 , 1000);
+      folderPlate.add(plate.position, 'z', -1000 , 1000);
+    }
+
+    function addGlassToGUI(glass){
+      const folderGlass = gui.addFolder('Glass');
+      folderGlass.add(glass.position, 'x', -1000 , 1000);
+      folderGlass.add(glass.position, 'y', -1000 , 1000);
+      folderGlass.add(glass.position, 'z', -1000 , 1000);
+    }
+
+    function addTableToGUI(table){
+      const folderTable = gui.addFolder('Table');
+      folderTable.add(table.position, 'x', -1000 , 1000);
+      folderTable.add(table.position, 'y', -1000 , 1000);
+      folderTable.add(table.position, 'z', -1000 , 1000);
+    }
+
+    animate();
+
+    function animate() {
+      requestAnimationFrame(animate);
+      if (canLookAround) {
+        controls.update(clock.getDelta());
+      }
+      if (selectedObject) {
+        selectedObject.rotation.x += 0.05;
+        selectedObject.rotation.y += 0.05;
+      }
+      render();
+    }
+
+    function render() {
+      raycaster.setFromCamera(pointer, camera);
+      const intersects = raycaster.intersectObjects(scene.children);
+      if (intersects.length > 0) {
+        if (selectedHoverObject !== intersects[0].object) {
+          if (selectedHoverObject) {
+            selectedHoverObject.material.color.setHex(selectedHoverObject.currentHex);
+          }
+          selectedHoverObject = intersects[0].object;
+          selectedHoverObject.currentHex = selectedHoverObject.material.color.getHex();
+          selectedHoverObject.material.color.setHex(0x0000ff);
+        }
+      } else {
+        if (selectedHoverObject) {
+          selectedHoverObject.material.color.setHex(selectedHoverObject.currentHex);
+        }
+        selectedHoverObject = null;
+      }
+      renderer.render(scene, camera);
+    }
+
+    window.addEventListener('pointermove', onPointerMove);
+    window.addEventListener('click', () => {
+      if (selectedHoverObject) {
+        selectedObject = selectedHoverObject;
+        console.log(selectedObject);
+        const infoDiv = document.getElementById('objectInfo');
+        infoDiv.textContent = "You selected: " + selectedObject.name; // Assuming your objects have a 'name' property
+        infoDiv.style.display = 'block';
+      }
+    });
+    window.requestAnimationFrame(render);
+
+    document.body.onkeydown = function (e) {
+      switch (e.code) {
+        case "Space":
+          canLookAround = !canLookAround;
+          break;
+
+        case "KeyS":
+        case "ArrowDown":
+          camera.fov++;
+          camera.updateProjectionMatrix();
+          break;
+
+        case "KeyW":
+        case "ArrowUp":
+          camera.fov--;
+          camera.updateProjectionMatrix();
+          break;
+      }
+    };
+  </script>
+</body>
+
+</html>
